@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3DB3003218BB452D00203DDD /* blackArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DB3002A18BB452D00203DDD /* blackArrow.png */; };
+		3DB3003318BB452D00203DDD /* blackArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DB3002A18BB452D00203DDD /* blackArrow.png */; };
+		3DB3003418BB452D00203DDD /* blackArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DB3002B18BB452D00203DDD /* blackArrow@2x.png */; };
+		3DB3003518BB452D00203DDD /* blackArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DB3002B18BB452D00203DDD /* blackArrow@2x.png */; };
+		3DB3003618BB452D00203DDD /* blueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DB3002C18BB452D00203DDD /* blueArrow.png */; };
+		3DB3003718BB452D00203DDD /* blueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DB3002C18BB452D00203DDD /* blueArrow.png */; };
+		3DB3003818BB452D00203DDD /* blueArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DB3002D18BB452D00203DDD /* blueArrow@2x.png */; };
+		3DB3003918BB452D00203DDD /* blueArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DB3002D18BB452D00203DDD /* blueArrow@2x.png */; };
+		3DB3003A18BB452D00203DDD /* grayArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DB3002E18BB452D00203DDD /* grayArrow.png */; };
+		3DB3003B18BB452D00203DDD /* grayArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DB3002E18BB452D00203DDD /* grayArrow.png */; };
+		3DB3003C18BB452D00203DDD /* grayArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DB3002F18BB452D00203DDD /* grayArrow@2x.png */; };
+		3DB3003D18BB452D00203DDD /* grayArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DB3002F18BB452D00203DDD /* grayArrow@2x.png */; };
+		3DB3003E18BB452D00203DDD /* whiteArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DB3003018BB452D00203DDD /* whiteArrow.png */; };
+		3DB3003F18BB452D00203DDD /* whiteArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DB3003018BB452D00203DDD /* whiteArrow.png */; };
+		3DB3004018BB452D00203DDD /* whiteArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DB3003118BB452D00203DDD /* whiteArrow@2x.png */; };
+		3DB3004118BB452D00203DDD /* whiteArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DB3003118BB452D00203DDD /* whiteArrow@2x.png */; };
 		3DC8581D18BB35DF00A6530D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC8581C18BB35DF00A6530D /* Foundation.framework */; };
 		3DC8581F18BB35DF00A6530D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC8581E18BB35DF00A6530D /* CoreGraphics.framework */; };
 		3DC8582118BB35DF00A6530D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC8582018BB35DF00A6530D /* UIKit.framework */; };
@@ -19,6 +35,17 @@
 		3DC8583818BB35DF00A6530D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC8582018BB35DF00A6530D /* UIKit.framework */; };
 		3DC8584018BB35DF00A6530D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3DC8583E18BB35DF00A6530D /* InfoPlist.strings */; };
 		3DC8584218BB35DF00A6530D /* XQPullRefreshAndLoadMoreDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC8584118BB35DF00A6530D /* XQPullRefreshAndLoadMoreDemoTests.m */; };
+		3DC8584D18BB35F100A6530D /* XQMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC8584C18BB35F100A6530D /* XQMainViewController.m */; };
+		3DC8584E18BB35F100A6530D /* XQMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC8584C18BB35F100A6530D /* XQMainViewController.m */; };
+		3DC8587818BB379100A6530D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC8587718BB379100A6530D /* QuartzCore.framework */; };
+		3DC8588118BB394500A6530D /* EGORefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC8587A18BB394500A6530D /* EGORefreshTableHeaderView.m */; };
+		3DC8588218BB394500A6530D /* EGORefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC8587A18BB394500A6530D /* EGORefreshTableHeaderView.m */; };
+		3DC8588318BB394500A6530D /* LoadMoreTableFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC8587C18BB394500A6530D /* LoadMoreTableFooterView.m */; };
+		3DC8588418BB394500A6530D /* LoadMoreTableFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC8587C18BB394500A6530D /* LoadMoreTableFooterView.m */; };
+		3DC8588518BB394500A6530D /* MessageInterceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC8587E18BB394500A6530D /* MessageInterceptor.m */; };
+		3DC8588618BB394500A6530D /* MessageInterceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC8587E18BB394500A6530D /* MessageInterceptor.m */; };
+		3DC8588718BB394500A6530D /* PullTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC8588018BB394500A6530D /* PullTableView.m */; };
+		3DC8588818BB394500A6530D /* PullTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC8588018BB394500A6530D /* PullTableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +59,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3DB3002A18BB452D00203DDD /* blackArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackArrow.png; sourceTree = "<group>"; };
+		3DB3002B18BB452D00203DDD /* blackArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackArrow@2x.png"; sourceTree = "<group>"; };
+		3DB3002C18BB452D00203DDD /* blueArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueArrow.png; sourceTree = "<group>"; };
+		3DB3002D18BB452D00203DDD /* blueArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueArrow@2x.png"; sourceTree = "<group>"; };
+		3DB3002E18BB452D00203DDD /* grayArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grayArrow.png; sourceTree = "<group>"; };
+		3DB3002F18BB452D00203DDD /* grayArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grayArrow@2x.png"; sourceTree = "<group>"; };
+		3DB3003018BB452D00203DDD /* whiteArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteArrow.png; sourceTree = "<group>"; };
+		3DB3003118BB452D00203DDD /* whiteArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whiteArrow@2x.png"; sourceTree = "<group>"; };
 		3DC8581918BB35DF00A6530D /* XQPullRefreshAndLoadMoreDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XQPullRefreshAndLoadMoreDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DC8581C18BB35DF00A6530D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3DC8581E18BB35DF00A6530D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +83,17 @@
 		3DC8583D18BB35DF00A6530D /* XQPullRefreshAndLoadMoreDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XQPullRefreshAndLoadMoreDemoTests-Info.plist"; sourceTree = "<group>"; };
 		3DC8583F18BB35DF00A6530D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3DC8584118BB35DF00A6530D /* XQPullRefreshAndLoadMoreDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XQPullRefreshAndLoadMoreDemoTests.m; sourceTree = "<group>"; };
+		3DC8584B18BB35F100A6530D /* XQMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQMainViewController.h; sourceTree = "<group>"; };
+		3DC8584C18BB35F100A6530D /* XQMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQMainViewController.m; sourceTree = "<group>"; };
+		3DC8587718BB379100A6530D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3DC8587918BB394500A6530D /* EGORefreshTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGORefreshTableHeaderView.h; sourceTree = "<group>"; };
+		3DC8587A18BB394500A6530D /* EGORefreshTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGORefreshTableHeaderView.m; sourceTree = "<group>"; };
+		3DC8587B18BB394500A6530D /* LoadMoreTableFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadMoreTableFooterView.h; sourceTree = "<group>"; };
+		3DC8587C18BB394500A6530D /* LoadMoreTableFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadMoreTableFooterView.m; sourceTree = "<group>"; };
+		3DC8587D18BB394500A6530D /* MessageInterceptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageInterceptor.h; sourceTree = "<group>"; };
+		3DC8587E18BB394500A6530D /* MessageInterceptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageInterceptor.m; sourceTree = "<group>"; };
+		3DC8587F18BB394500A6530D /* PullTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PullTableView.h; sourceTree = "<group>"; };
+		3DC8588018BB394500A6530D /* PullTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PullTableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DC8587818BB379100A6530D /* QuartzCore.framework in Frameworks */,
 				3DC8581F18BB35DF00A6530D /* CoreGraphics.framework in Frameworks */,
 				3DC8582118BB35DF00A6530D /* UIKit.framework in Frameworks */,
 				3DC8581D18BB35DF00A6530D /* Foundation.framework in Frameworks */,
@@ -96,6 +143,7 @@
 		3DC8581B18BB35DF00A6530D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3DC8587718BB379100A6530D /* QuartzCore.framework */,
 				3DC8581C18BB35DF00A6530D /* Foundation.framework */,
 				3DC8581E18BB35DF00A6530D /* CoreGraphics.framework */,
 				3DC8582018BB35DF00A6530D /* UIKit.framework */,
@@ -107,10 +155,28 @@
 		3DC8582218BB35DF00A6530D /* XQPullRefreshAndLoadMoreDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3DB3002A18BB452D00203DDD /* blackArrow.png */,
+				3DB3002B18BB452D00203DDD /* blackArrow@2x.png */,
+				3DB3002C18BB452D00203DDD /* blueArrow.png */,
+				3DB3002D18BB452D00203DDD /* blueArrow@2x.png */,
+				3DB3002E18BB452D00203DDD /* grayArrow.png */,
+				3DB3002F18BB452D00203DDD /* grayArrow@2x.png */,
+				3DB3003018BB452D00203DDD /* whiteArrow.png */,
+				3DB3003118BB452D00203DDD /* whiteArrow@2x.png */,
+				3DC8587918BB394500A6530D /* EGORefreshTableHeaderView.h */,
+				3DC8587A18BB394500A6530D /* EGORefreshTableHeaderView.m */,
+				3DC8587B18BB394500A6530D /* LoadMoreTableFooterView.h */,
+				3DC8587C18BB394500A6530D /* LoadMoreTableFooterView.m */,
+				3DC8587D18BB394500A6530D /* MessageInterceptor.h */,
+				3DC8587E18BB394500A6530D /* MessageInterceptor.m */,
+				3DC8587F18BB394500A6530D /* PullTableView.h */,
+				3DC8588018BB394500A6530D /* PullTableView.m */,
 				3DC8582B18BB35DF00A6530D /* XQAppDelegate.h */,
 				3DC8582C18BB35DF00A6530D /* XQAppDelegate.m */,
 				3DC8582E18BB35DF00A6530D /* Images.xcassets */,
 				3DC8582318BB35DF00A6530D /* Supporting Files */,
+				3DC8584B18BB35F100A6530D /* XQMainViewController.h */,
+				3DC8584C18BB35F100A6530D /* XQMainViewController.m */,
 			);
 			path = XQPullRefreshAndLoadMoreDemo;
 			sourceTree = "<group>";
@@ -220,7 +286,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DB3003818BB452D00203DDD /* blueArrow@2x.png in Resources */,
 				3DC8582718BB35DF00A6530D /* InfoPlist.strings in Resources */,
+				3DB3004018BB452D00203DDD /* whiteArrow@2x.png in Resources */,
+				3DB3003218BB452D00203DDD /* blackArrow.png in Resources */,
+				3DB3003C18BB452D00203DDD /* grayArrow@2x.png in Resources */,
+				3DB3003618BB452D00203DDD /* blueArrow.png in Resources */,
+				3DB3003418BB452D00203DDD /* blackArrow@2x.png in Resources */,
+				3DB3003A18BB452D00203DDD /* grayArrow.png in Resources */,
+				3DB3003E18BB452D00203DDD /* whiteArrow.png in Resources */,
 				3DC8582F18BB35DF00A6530D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,7 +303,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DB3003B18BB452D00203DDD /* grayArrow.png in Resources */,
 				3DC8584018BB35DF00A6530D /* InfoPlist.strings in Resources */,
+				3DB3003318BB452D00203DDD /* blackArrow.png in Resources */,
+				3DB3003918BB452D00203DDD /* blueArrow@2x.png in Resources */,
+				3DB3003518BB452D00203DDD /* blackArrow@2x.png in Resources */,
+				3DB3003F18BB452D00203DDD /* whiteArrow.png in Resources */,
+				3DB3003D18BB452D00203DDD /* grayArrow@2x.png in Resources */,
+				3DB3004118BB452D00203DDD /* whiteArrow@2x.png in Resources */,
+				3DB3003718BB452D00203DDD /* blueArrow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,8 +322,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DC8588718BB394500A6530D /* PullTableView.m in Sources */,
+				3DC8588118BB394500A6530D /* EGORefreshTableHeaderView.m in Sources */,
 				3DC8582918BB35DF00A6530D /* main.m in Sources */,
 				3DC8582D18BB35DF00A6530D /* XQAppDelegate.m in Sources */,
+				3DC8588518BB394500A6530D /* MessageInterceptor.m in Sources */,
+				3DC8588318BB394500A6530D /* LoadMoreTableFooterView.m in Sources */,
+				3DC8584D18BB35F100A6530D /* XQMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +336,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DC8588218BB394500A6530D /* EGORefreshTableHeaderView.m in Sources */,
+				3DC8588418BB394500A6530D /* LoadMoreTableFooterView.m in Sources */,
+				3DC8588618BB394500A6530D /* MessageInterceptor.m in Sources */,
+				3DC8584E18BB35F100A6530D /* XQMainViewController.m in Sources */,
+				3DC8588818BB394500A6530D /* PullTableView.m in Sources */,
 				3DC8584218BB35DF00A6530D /* XQPullRefreshAndLoadMoreDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,9 +452,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XQPullRefreshAndLoadMoreDemo/XQPullRefreshAndLoadMoreDemo-Prefix.pch";
 				INFOPLIST_FILE = "XQPullRefreshAndLoadMoreDemo/XQPullRefreshAndLoadMoreDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -373,9 +467,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XQPullRefreshAndLoadMoreDemo/XQPullRefreshAndLoadMoreDemo-Prefix.pch";
 				INFOPLIST_FILE = "XQPullRefreshAndLoadMoreDemo/XQPullRefreshAndLoadMoreDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -442,6 +538,7 @@
 				3DC8584718BB35DF00A6530D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3DC8584818BB35DF00A6530D /* Build configuration list for PBXNativeTarget "XQPullRefreshAndLoadMoreDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +547,7 @@
 				3DC8584A18BB35DF00A6530D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

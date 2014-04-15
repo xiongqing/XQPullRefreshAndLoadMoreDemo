@@ -7,6 +7,7 @@
 //
 
 #import "XQAppDelegate.h"
+#import "XQMainViewController.h"
 
 @implementation XQAppDelegate
 
@@ -15,6 +16,11 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    XQMainViewController *mainViewController = [[XQMainViewController alloc] init];
+    [self.window setRootViewController:mainViewController];
+    [mainViewController release];
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
